@@ -91,3 +91,15 @@ App
 - **FormInput 컴포넌트 json 기반 리팩토링**
   - 입력 필드(label, placeholder, type 등)를 하드코딩하지 않고, `src/data/input-config.json`에서 관리하도록 구조를 개선했다.
   - FormInput 컴포넌트는 json에서 필요한 정보를 동적으로 불러와 렌더링하므로, 새로운 입력 타입 추가나 수정이 훨씬 간편해졌다.
+
+- **label과 id 속성 추가**
+  - 기존에는 FormInput 컴포넌트에 label과 id를 사용하지 않아, 입력 필드와 라벨이 명확하게 연결되지 않았고 접근성이 떨어졌다.
+  - 리팩토링을 통해 각 input에 id를 동적으로 생성하고, label의 htmlFor 속성으로 연결함으로써 스크린리더 등 접근성 도구에서 폼을 더 잘 인식할 수 있게 개선했다.
+
+## 브라우저 자동완성(autocomplete) 이슈 및 해결
+
+- **문제점**
+  - input 태그에 id나 name 속성은 있지만, autocomplete 속성이 없으면 브라우저가 자동완성(autofill)을 제대로 처리하지 못해 사용자가 이전에 입력한 정보(이메일, 비밀번호 등)를 자동으로 채워주지 못할 수 있다는 내용이 이슈창에 떴다.
+
+- **해결 방법**
+  - FormInput 컴포넌트에서 input 태그에 `autoComplete="on"`을 추가하였다.
