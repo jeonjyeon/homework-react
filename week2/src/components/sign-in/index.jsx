@@ -1,3 +1,4 @@
+import FormButton from '../form-button'
 import FormInput from '../form-input'
 
 export default function SignIn() {
@@ -8,12 +9,7 @@ export default function SignIn() {
         <form className="font-[Spoqa_Han_Sans_Neo] w-full h-[200px] flex flex-col gap-y-3 gap-x-3 pt-6 pb-16 px-6 rounded-lg left-0 top-0 bg-white">
           <FormInput type="email" />
           <FormInput type="password" />
-          <button
-            type="submit"
-            className="w-full flex flex-col justify-center items-center self-stretch px-0 py-3 rounded-[999px] left-8 top-6 bg-[#3578FF]"
-          >
-            로그인
-          </button>
+          <FormButton>로그인</FormButton>
         </form>
       </div>
     </>
