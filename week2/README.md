@@ -19,6 +19,8 @@
 - 가장 상위에는 App 컴포넌트가 있고, 그 안에 SignIn과 SignUp 컴포넌트를 배치했다.
 - 로그인/회원가입 화면은 공통적으로 input과 button이 필요하므로, 이를 각각 FormInput, FormButton으로 최소 단위로 분리했다.
 
+#### 리팩토링 전
+
 ```
 App
 ├── SignIn
@@ -27,6 +29,51 @@ App
 │  └── FormButton ("로그인")
 └── SignUp (미구현)
 ```
+
+#### input-config.json을 활용하여 컴포넌트 리팩토링 후
+
+```json
+// input-config.json
+{
+  "name": {
+    "label": "이름",
+    "placeholder": "2글자 이상 입력",
+    "type": "text"
+  },
+  "email": {
+    "label": "이메일",
+    "placeholder": "user@company.io",
+    "type": "email"
+  },
+  "password": {
+    "label": "패스워드",
+    "placeholder": "숫자, 영문 조합 6자리 이상 입력",
+    "type": "password"
+  },
+  "passwordCheck": {
+    "label": "패스워드 확인",
+    "placeholder": "입력한 패스워드 다시 입력",
+    "type": "password"
+  }
+}
+```
+
+```
+App
+├── SignIn
+│  ├── FormInput (type="email")
+│  ├── FormInput (type="password")
+│  └── FormButton ("로그인")
+└── SignUp
+│  ├── FormInput (type="name")
+│  ├── FormInput (type="email")
+│  ├── FormInput (type="password")
+│  ├── FormInput (type="passwordCheck")
+│  └── FormButton ("회원가입")
+```
+
+- **FormInput**: 입력 타입별(label, placeholder, input type 등) 정보를 `src/data/input-config.json`에서 불러와 동적으로 렌더링
+- **FormButton**: 폼 제출 버튼, children으로 텍스트를 받음
 
 ### 고민한 점
 
@@ -38,3 +85,9 @@ App
   - 급하게 과제를 수행하면서 직접 Tailwind CSS를 작성하기보다는, 디자인 시안에 있는 CSS 코드를 가져와 VSCode extension을 활용해 Tailwind CSS로 변환하여 사용했다.
   - 덕분에 디자인 시안과 유사하게 스타일을 빠르게 적용할 수 있었지만, 직접 작성하지 않다 보니 각 컴포넌트에 꼭 필요한 스타일만을 선별하는 데에는 어려움이 있었다.
   - 다음에는 직접 Tailwind CSS를 작성해보며, 불필요한 스타일은 줄이고 꼭 필요한 부분만 명확하게 적용하는 경험을 쌓고 싶다.
+
+## 리팩토링
+
+- **FormInput 컴포넌트 json 기반 리팩토링**
+  - 입력 필드(label, placeholder, type 등)를 하드코딩하지 않고, `src/data/input-config.json`에서 관리하도록 구조를 개선했다.
+  - FormInput 컴포넌트는 json에서 필요한 정보를 동적으로 불러와 렌더링하므로, 새로운 입력 타입 추가나 수정이 훨씬 간편해졌다.
