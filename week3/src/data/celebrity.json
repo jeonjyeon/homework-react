@@ -8,7 +8,8 @@
     "debut-song": "미아",
     "latest-song": "Never Ending Story",
     "tag": ["여자", "솔로"],
-    "image": "/assets/iu.jpg"
+    "image": "/assets/iu.jpg",
+    "wiki_url": "https://namu.wiki/w/아이유"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "company": "HYBE",
     "latest-song": "Take Two",
     "tag": ["남자", "그룹", "보이그룹"],
-    "image": "/assets/bts.jpg"
+    "image": "/assets/bts.jpg",
+    "wiki_url": "https://namu.wiki/w/방탄소년단"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "company": "YG",
     "latest-song": "뛰어(JUMP)",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/blackpink.jpg"
+    "image": "/assets/blackpink.jpg",
+    "wiki_url": "https://namu.wiki/w/블랙핑크"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "company": "SM",
     "latest-song": "Cream Soda",
     "tag": ["남자", "그룹", "보이그룹"],
-    "image": "/assets/exo.jpg"
+    "image": "/assets/exo.jpg",
+    "wiki_url": "https://namu.wiki/w/엑소"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "company": "SM",
     "latest-song": "Cosmic",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/redvelvet.jpg"
+    "image": "/assets/redvelvet.jpg",
+    "wiki_url": "https://namu.wiki/w/레드벨벳"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "company": "ADOR",
     "latest-song": "Supernatural",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/newjeans.jpg"
+    "image": "/assets/newjeans.jpg",
+    "wiki_url": "https://namu.wiki/w/뉴진스"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "company": "플레디스",
     "latest-song": "THUNDER",
     "tag": ["남자", "그룹", "보이그룹"],
-    "image": "/assets/seventeen.jpg"
+    "image": "/assets/seventeen.jpg",
+    "wiki_url": "https://namu.wiki/w/세븐틴"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "company": "JYP",
     "latest-song": "ENEMY",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/twice.jpg"
+    "image": "/assets/twice.jpg",
+    "wiki_url": "https://namu.wiki/w/TWICE"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "company": "SM",
     "latest-song": "삐그덕 (Walk)",
     "tag": ["남자", "그룹", "보이그룹"],
-    "image": "/assets/nct127.jpg"
+    "image": "/assets/nct127.jpg",
+    "wiki_url": "https://namu.wiki/w/NCT127"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "company": "JYP",
     "latest-song": "Girls Will Be Girls",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/itzy.jpg"
+    "image": "/assets/itzy.jpg",
+    "wiki_url": "https://namu.wiki/w/있지"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "company": "JYP",
     "latest-song": "CEREMONY",
     "tag": ["남자", "그룹", "보이그룹"],
-    "image": "/assets/straykids.jpg"
+    "image": "/assets/straykids.jpg",
+    "wiki_url": "https://namu.wiki/w/스트레이키즈"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "company": "SM",
     "latest-song": "Rich Man",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/aespa.jpg"
+    "image": "/assets/aespa.jpg",
+    "wiki_url": "https://namu.wiki/w/에스파"
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "company": "스타쉽",
     "latest-song": "XOXZ",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/ive.jpg"
+    "image": "/assets/ive.jpg",
+    "wiki_url": "https://namu.wiki/w/아이브"
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "company": "SM",
     "latest-song": "Poet | Artist",
     "tag": ["남자", "그룹", "보이그룹"],
-    "image": "/assets/shinee.jpg"
+    "image": "/assets/shinee.jpg",
+    "wiki_url": "https://namu.wiki/w/샤이니"
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "company": "KOZ",
     "latest-song": "EKO EKO",
     "tag": ["남자", "솔로"],
-    "image": "/assets/zico.jpg"
+    "image": "/assets/zico.jpg",
+    "wiki_url": "https://namu.wiki/w/지코"
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "company": "SM",
     "latest-song": "Letter To Myself",
     "tag": ["여자", "솔로"],
-    "image": "/assets/taeyeon.jpg"
+    "image": "/assets/taeyeon.jpg",
+    "wiki_url": "https://namu.wiki/w/태연"
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "company": "피플라이크피플",
     "latest-song": "1-4-3",
     "tag": ["여자", "솔로"],
-    "image": "/assets/baekyerin.jpg"
+    "image": "/assets/baekyerin.jpg",
+    "wiki_url": "https://namu.wiki/w/백예린"
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "company": "YG",
     "latest-song": "DADA",
     "tag": ["혼성그룹", "그룹"],
-    "image": "/assets/akmu.jpg"
+    "image": "/assets/akmu.jpg",
+    "wiki_url": "https://namu.wiki/w/악뮤"
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "company": "duover",
     "latest-song": "계절의 우리",
     "tag": ["여자", "솔로"],
-    "image": "/assets/leehigh.jpg"
+    "image": "/assets/leehigh.jpg",
+    "wiki_url": "https://namu.wiki/w/이하이"
   },
   {
     "id": 20,
@@ -217,7 +236,8 @@
     "company": "INB100",
     "latest-song": "Elevator",
     "tag": ["남자", "솔로"],
-    "image": "/assets/baekhyun.jpg"
+    "image": "/assets/baekhyun.jpg",
+    "wiki_url": "https://namu.wiki/w/백현"
   },
   {
     "id": 21,
@@ -228,7 +248,8 @@
     "company": "C9",
     "latest-song": "포인트 니모",
     "tag": ["여자", "솔로"],
-    "image": "/assets/younha.jpg"
+    "image": "/assets/younha.jpg",
+    "wiki_url": "https://namu.wiki/w/윤하"
   },
   {
     "id": 22,
@@ -239,7 +260,8 @@
     "company": "PNATION",
     "latest-song": "UP ALL NITE (Feat. SUMIN)",
     "tag": ["남자", "솔로"],
-    "image": "/assets/crush.jpg"
+    "image": "/assets/crush.jpg",
+    "wiki_url": "https://namu.wiki/w/Crush(가수)"
   },
   {
     "id": 23,
@@ -250,7 +272,8 @@
     "company": "RBW",
     "latest-song": "ILLELLA (일낼라)",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/mamamoo.jpg"
+    "image": "/assets/mamamoo.jpg",
+    "wiki_url": "https://namu.wiki/w/마마무"
   },
   {
     "id": 24,
@@ -261,7 +284,8 @@
     "company": "YG",
     "latest-song": "I LOVE U",
     "tag": ["남자", "그룹", "보이그룹"],
-    "image": "/assets/winner.jpg"
+    "image": "/assets/winner.jpg",
+    "wiki_url": "https://namu.wiki/w/WINNER"
   },
   {
     "id": 25,
@@ -272,7 +296,8 @@
     "company": "WM",
     "latest-song": "일기예보",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/ohmygirl.jpg"
+    "image": "/assets/ohmygirl.jpg",
+    "wiki_url": "https://namu.wiki/w/오마이걸"
   },
   {
     "id": 26,
@@ -283,7 +308,8 @@
     "company": "JYP",
     "latest-song": "메이플라떼",
     "tag": ["남자", "그룹", "밴드"],
-    "image": "/assets/day6.jpg"
+    "image": "/assets/day6.jpg",
+    "wiki_url": "https://namu.wiki/w/DAY6"
   },
   {
     "id": 27,
@@ -294,7 +320,8 @@
     "company": "BIGPLANETMADE",
     "latest-song": "La La Love Me",
     "tag": ["여자", "그룹", "걸그룹"],
-    "image": "/assets/viviz.jpg"
+    "image": "/assets/viviz.jpg",
+    "wiki_url": "https://namu.wiki/w/VIVIZ"
   },
   {
     "id": 28,
@@ -305,7 +332,8 @@
     "company": "DSP미디어",
     "latest-song": "Touch",
     "tag": ["혼성그룹", "그룹"],
-    "image": "/assets/kard.jpg"
+    "image": "/assets/kard.jpg",
+    "wiki_url": "https://namu.wiki/w/KARD"
   },
   {
     "id": 29,
@@ -316,7 +344,8 @@
     "company": "와이예스 엔터테인먼트",
     "latest-song": "내가 널 지켜줄게",
     "tag": ["남자", "솔로"],
-    "image": "/assets/paulkim.jpg"
+    "image": "/assets/paulkim.jpg",
+    "wiki_url": "https://namu.wiki/w/폴킴"
   },
   {
     "id": 30,
@@ -327,6 +356,7 @@
     "company": "PNATION",
     "latest-song": "You are the one",
     "tag": ["여자", "솔로"],
-    "image": "/assets/heize.jpg"
+    "image": "/assets/heize.jpg",
+    "wiki_url": "https://namu.wiki/w/헤이즈"
   }
 ]
